@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(101, 47, 248);
+}
+
+.contact h2{
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+.contact {
+	position: absolute;
+	margin-left: 570px;
+	margin-top: 120px;
+	width: 350px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+}
+
+.input input{
+	width: 300px;
+	margin-top: 15px;
+	height: 30px;
+	margin-left: 27px;
+	border-style: none;
+background-color: rgb(216, 216, 216);
+color: black;
+}
+.submit input{
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 20px;
+	height: 37px;
+	border-radius: 15px;
+	background-color: rgb(132, 0, 255);
+	border-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+}
+
+p{
+	margin-left: 20px;
+}
+.tab{
+	margin-top: 100px;
+}
+.input input::placeholder{
+	color: rgb(0, 0, 0);
+}
+label{
+	margin-left: 30px;
+}
